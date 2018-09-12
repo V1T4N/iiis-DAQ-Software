@@ -21,6 +21,7 @@ h5file = h5py.File(output_file,'w')
 
 
 cap = cv2.VideoCapture(video_file)
+video_frame = cap.get(cv2.CAP_PROP_FRAME_COUNT)
 
 
 i = 0
@@ -51,6 +52,8 @@ while(cap.isOpened()):# 動画終了まで繰り返し
         break
 
     i = i + 1
+
+    print(i,"/",video_frame)
 
 
 
