@@ -204,5 +204,7 @@ public:
 	int mMSFPS;
 	CComboBox mMSFPSCBox;
 	
+	int MAXFrame;
 
+	afx_msg void OnEnChangeEdit22();
 };

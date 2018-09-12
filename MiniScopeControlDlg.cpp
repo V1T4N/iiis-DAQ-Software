@@ -78,6 +78,7 @@
 	//////////////////////////////////////////////
 	CString str;
 	CString str2;
+	int CamNum = 1;
 
 	////////////////////////////////////////////
 
@@ -146,6 +147,7 @@ CMiniScopeControlDlg::CMiniScopeControlDlg(CWnd* pParent /*=NULL*/)
 	, mMinFluorDisplay(0)
 	, mMaxFluorDisplay(0)
 	, mMSFPS(0)
+	,MAXFrame(0)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 }
@@ -190,6 +192,7 @@ void CMiniScopeControlDlg::DoDataExchange(CDataExchange* pDX)
 	DDX_Text(pDX, IDC_MAXFLUORDISPLAY, mMaxFluorDisplay);
 	DDX_CBIndex(pDX, IDC_COMBO1, mMSFPS);
 	DDX_Control(pDX, IDC_COMBO1, mMSFPSCBox);
+	DDX_Text(pDX, IDC_EDIT21, MAXFrame);
 }
 
 BEGIN_MESSAGE_MAP(CMiniScopeControlDlg, CDialogEx)
@@ -315,6 +318,11 @@ BOOL CMiniScopeControlDlg::OnInitDialog()
 	mBehavCapFrameCountGlobal = 0;
 
 	mMSFPS = 1;
+	
+	//**********************************************
+	MAXFrame = 1000;
+	//**********************************************
+	
 	//------------ Timer for cameras -----------
 	QueryPerformanceFrequency(&Frequency); 
 	QueryPerformanceCounter(&StartingTime);
@@ -322,6 +330,7 @@ BOOL CMiniScopeControlDlg::OnInitDialog()
 	mTimer = SetTimer(1,100,NULL);
 	//-----------------------------------
 	UpdateData(FALSE);
+
 
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
@@ -685,8 +694,8 @@ void CMiniScopeControlDlg::OnBnClickedRecord()
 	settingsFile.WriteString(str);
 	
 //**********************‚±‚ÌƒtƒŒ[ƒ€”‚ð’´‚¦‚é‚Æ•ªŠ„‚³‚ê‚é***********************************
-	msCamMaxFrames = 100000;
-	behavCamMaxFrames = 100000;
+	msCamMaxFrames = MAXFrame;
+	behavCamMaxFrames = MAXFrame;
 //*********************************************************
 	QueryPerformanceCounter(&startOfRecord);
 	GetDlgItem(IDC_RECORD)->EnableWindow(FALSE);
@@ -727,7 +736,7 @@ void CMiniScopeControlDlg::OnBnClickedStoprecord()
 
 	TCHAR str3[300];
 
-	_stprintf_s(str3, _T("python run.py %s/msCam1.avi"),video_dir);
+	_stprintf_s(str3, _T("python run.py %s,%d"),video_dir,CamNum);
 
 
 	AddListText(str3);
@@ -974,6 +983,10 @@ UINT CMiniScopeControlDlg::camWrite(LPVOID pParam )
 				if (mMsCapFrameCount%self->msCamMaxFrames == 0) {
 					msOutVid.release();
 					msCamFileNumber++;
+					//*********************************************
+					CamNum++;
+					self->AddListText(L"File Splited");
+					//*********************************************
 					tempString = self->msCamFileName + std::to_string(msCamFileNumber) + ".avi";
 					msOutVid.open(tempString,CV_FOURCC('D', 'I', 'B', ' '),20,cv::Size(self->msCam.get(CV_CAP_PROP_FRAME_WIDTH),self->msCam.get(CV_CAP_PROP_FRAME_HEIGHT)),false);
 				}
@@ -1225,5 +1238,4 @@ void CMiniScopeControlDlg::OnCbnCloseupCombo1()
 			AddListText(str);
 
 }
-
 
