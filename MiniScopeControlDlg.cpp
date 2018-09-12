@@ -58,6 +58,16 @@
 #endif
 
 
+
+
+
+
+
+
+
+
+
+
 	CCriticalSection msCS;
 	CCriticalSection behavCS;
 // CAboutDlg dialog used for App About
@@ -674,10 +684,10 @@ void CMiniScopeControlDlg::OnBnClickedRecord()
 	str.Format(L"%s\t%i\t%i\t%i\n\nelapsedTime\tNote\n",mMouseName,mValueExcitation,mScopeExposure,mRecordLength);
 	settingsFile.WriteString(str);
 	
-
-	msCamMaxFrames = 1000;
-	behavCamMaxFrames = 1000;
-	
+//**********************‚±‚ÌƒtƒŒ[ƒ€”‚ð’´‚¦‚é‚Æ•ªŠ„‚³‚ê‚é***********************************
+	msCamMaxFrames = 100000;
+	behavCamMaxFrames = 100000;
+//*********************************************************
 	QueryPerformanceCounter(&startOfRecord);
 	GetDlgItem(IDC_RECORD)->EnableWindow(FALSE);
 	if (mCheckTrigRec==false)
@@ -939,7 +949,9 @@ UINT CMiniScopeControlDlg::camWrite(LPVOID pParam )
 
 	if (self->scopeCamConnected == true) {
 		tempString = self->msCamFileName + std::to_string(msCamFileNumber) + ".avi";
-		msOutVid.open(tempString,CV_FOURCC('D', 'I', 'B', ' '),20,cv::Size(self->msCam.get(CV_CAP_PROP_FRAME_WIDTH),self->msCam.get(CV_CAP_PROP_FRAME_HEIGHT)),false);
+		//***************************************‚±‚±‚Åˆ³k•ûŽ®‚ð•ÏX‚Å‚«‚é*****************************************************************************************************
+		msOutVid.open(tempString, CV_FOURCC('D', 'I', 'B', ' '),20,cv::Size(self->msCam.get(CV_CAP_PROP_FRAME_WIDTH),self->msCam.get(CV_CAP_PROP_FRAME_HEIGHT)),false);
+		//*********************************************************************************************************************************************
 	}
 	if (self->behaviorCamConnected == true) {
 		tempString = self->behavCamFileName + std::to_string(msCamFileNumber) + ".avi";;

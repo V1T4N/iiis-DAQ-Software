@@ -1,0 +1,237 @@
+﻿  MiniScopeControlDlg.cpp
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(476): warning C4244: '=': 'LONGLONG' から 'UINT' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(482): warning C4244: '引数': 'LONGLONG' から 'UINT' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(488): warning C4244: '引数': 'double' から 'UINT' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(489): warning C4244: '引数': 'double' から 'UINT' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(579): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(787): warning C4805: '==': 演算中の 'BOOL' 型と 'bool' 型の混用は安全ではありません
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(788): warning C4244: '=': 'double' から 'unsigned char' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(814): warning C4244: '=': 'double' から 'LONGLONG' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(816): warning C4244: '=': 'double' から 'UINT' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(904): warning C4244: '=': 'double' から 'UINT' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(906): warning C4244: '=': 'double' から 'UINT' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(952): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(976): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(980): warning C4244: '=': 'double' から 'UINT' への変換です。データが失われる可能性があります。
+c:\users\admin2\desktop\iiis_daqsoftware\miniscopecontroldlg.cpp(1006): warning C4244: '=': 'double' から 'UINT' への変換です。データが失われる可能性があります。
+opencv_core249.lib(system.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(alloc.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(matrix.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(convert.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(stat.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(matop.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(drawing.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(opencv_core_pch.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(copy.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(rand.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(parallel.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(array.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(datastructs.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(gpumat.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(opengl_interop_deprecated.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(opengl_interop.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(arithm.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(matmul.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(lapack.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(tables.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(persistence.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(mathfuncs.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(cap.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(window.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(loadsave.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(opencv_highgui_pch.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(cap_dshow.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(cap_images.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(cap_ffmpeg.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(window_w32.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(grfmt_bmp.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(grfmt_sunras.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(grfmt_pxm.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(utils.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(bitstrm.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_highgui249.lib(grfmt_base.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_imgproc249.lib(color.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_imgproc249.lib(opencv_imgproc_pch.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_imgproc249.lib(tables.obj) : error LNK2038: '_MSC_VER' の不一致が検出されました。値 '1800' が 1900 の値 'MiniScopeControl.obj' と一致しません。
+opencv_core249.lib(system.obj) : error LNK2001: 外部シンボル "__iob_func" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "__iob_func" は未解決です。
+opencv_highgui249.lib(window_w32.obj) : error LNK2001: 外部シンボル "sprintf" は未解決です。
+opencv_highgui249.lib(grfmt_pxm.obj) : error LNK2001: 外部シンボル "sprintf" は未解決です。
+opencv_core249.lib(system.obj) : error LNK2001: 外部シンボル "sprintf" は未解決です。
+opencv_core249.lib(persistence.obj) : error LNK2001: 外部シンボル "sprintf" は未解決です。
+opencv_highgui249.lib(cap_dshow.obj) : error LNK2001: 外部シンボル "sprintf" は未解決です。
+opencv_highgui249.lib(cap_images.obj) : error LNK2001: 外部シンボル "sprintf" は未解決です。
+opencv_core249.lib(system.obj) : error LNK2001: 外部シンボル "vsprintf" は未解決です。
+opencv_core249.lib(opencv_core_pch.obj) : error LNK2001: 外部シンボル ""char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPEBDH@Z)" は未解決です。
+opencv_highgui249.lib(opencv_highgui_pch.obj) : error LNK2001: 外部シンボル ""char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPEBDH@Z)" は未解決です。
+opencv_imgproc249.lib(opencv_imgproc_pch.obj) : error LNK2001: 外部シンボル ""char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPEBDH@Z)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: __cdecl std::exception::exception(char const * const &)" (??0exception@std@@QEAA@AEBQEBD@Z)" は未解決です。
+opencv_core249.lib(gpumat.obj) : error LNK2001: 外部シンボル ""public: __cdecl std::exception::exception(char const * const &)" (??0exception@std@@QEAA@AEBQEBD@Z)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: __cdecl std::exception::exception(char const * const &,int)" (??0exception@std@@QEAA@AEBQEBDH@Z)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""void __cdecl Concurrency::Free(void *)" (?Free@Concurrency@@YAXPEAX@Z)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: static class Concurrency::details::_Context __cdecl Concurrency::details::_Context::_CurrentContext(void)" (?_CurrentContext@_Context@details@Concurrency@@SA?AV123@XZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: static void __cdecl Concurrency::details::_Context::_Yield(void)" (?_Yield@_Context@details@Concurrency@@SAXXZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: bool __cdecl Concurrency::details::_Context::_IsSynchronouslyBlocked(void)const " (?_IsSynchronouslyBlocked@_Context@details@Concurrency@@QEBA_NXZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: static unsigned int __cdecl Concurrency::details::_CurrentScheduler::_GetNumberOfVirtualProcessors(void)" (?_GetNumberOfVirtualProcessors@_CurrentScheduler@details@Concurrency@@SAIXZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: static unsigned int __cdecl Concurrency::details::_SpinCount::_Value(void)" (?_Value@_SpinCount@details@Concurrency@@SAIXZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""void __cdecl Concurrency::details::_UnderlyingYield(void)" (?_UnderlyingYield@details@Concurrency@@YAXXZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: __cdecl Concurrency::SchedulerPolicy::SchedulerPolicy(unsigned __int64,...)" (??0SchedulerPolicy@Concurrency@@QEAA@_KZZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: __cdecl Concurrency::SchedulerPolicy::~SchedulerPolicy(void)" (??1SchedulerPolicy@Concurrency@@QEAA@XZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: static unsigned int __cdecl Concurrency::CurrentScheduler::Id(void)" (?Id@CurrentScheduler@Concurrency@@SAIXZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: static class Concurrency::Scheduler * __cdecl Concurrency::CurrentScheduler::Get(void)" (?Get@CurrentScheduler@Concurrency@@SAPEAVScheduler@2@XZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: static void __cdecl Concurrency::CurrentScheduler::Detach(void)" (?Detach@CurrentScheduler@Concurrency@@SAXXZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: static class Concurrency::Scheduler * __cdecl Concurrency::Scheduler::Create(class Concurrency::SchedulerPolicy const &)" (?Create@Scheduler@Concurrency@@SAPEAV12@AEBVSchedulerPolicy@2@@Z)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: static unsigned int __cdecl Concurrency::Context::VirtualProcessorId(void)" (?VirtualProcessorId@Context@Concurrency@@SAIXZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: __cdecl Concurrency::critical_section::scoped_lock::scoped_lock(class Concurrency::critical_section &)" (??0scoped_lock@critical_section@Concurrency@@QEAA@AEAV12@@Z)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: __cdecl Concurrency::critical_section::scoped_lock::~scoped_lock(void)" (??1scoped_lock@critical_section@Concurrency@@QEAA@XZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: void __cdecl Concurrency::event::set(void)" (?set@event@Concurrency@@QEAAXXZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""protected: void __cdecl Concurrency::details::_UnrealizedChore::_CheckTaskCollection(void)" (?_CheckTaskCollection@_UnrealizedChore@details@Concurrency@@IEAAXXZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: __cdecl Concurrency::details::_StructuredTaskCollection::~_StructuredTaskCollection(void)" (??1_StructuredTaskCollection@details@Concurrency@@QEAA@XZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: void __cdecl Concurrency::details::_StructuredTaskCollection::_Schedule(class Concurrency::details::_UnrealizedChore *)" (?_Schedule@_StructuredTaskCollection@details@Concurrency@@QEAAXPEAV_UnrealizedChore@23@@Z)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: enum Concurrency::details::_TaskCollectionStatus __cdecl Concurrency::details::_StructuredTaskCollection::_RunAndWait(class Concurrency::details::_UnrealizedChore *)" (?_RunAndWait@_StructuredTaskCollection@details@Concurrency@@QEAA?AW4_TaskCollectionStatus@23@PEAV_UnrealizedChore@23@@Z)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: __cdecl Concurrency::details::_Cancellation_beacon::_Cancellation_beacon(void)" (??0_Cancellation_beacon@details@Concurrency@@QEAA@XZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: __cdecl Concurrency::details::_Cancellation_beacon::~_Cancellation_beacon(void)" (??1_Cancellation_beacon@details@Concurrency@@QEAA@XZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""public: bool __cdecl Concurrency::details::_Cancellation_beacon::_Confirm_cancel(void)" (?_Confirm_cancel@_Cancellation_beacon@details@Concurrency@@QEAA_NXZ)" は未解決です。
+opencv_core249.lib(parallel.obj) : error LNK2001: 外部シンボル ""void __cdecl Concurrency::_Trace_ppl_function(struct _GUID const &,unsigned char,enum Concurrency::ConcRT_EventType)" (?_Trace_ppl_function@Concurrency@@YAXAEBU_GUID@@EW4ConcRT_EventType@1@@Z)" は未解決です。
+opencv_core249.lib(gpumat.obj) : error LNK2001: 外部シンボル ""public: __cdecl std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QEAA@PEBD@Z)" は未解決です。
+opencv_core249.lib(persistence.obj) : error LNK2001: 外部シンボル "gzputs" は未解決です。
+opencv_core249.lib(persistence.obj) : error LNK2001: 外部シンボル "gzgets" は未解決です。
+opencv_core249.lib(persistence.obj) : error LNK2001: 外部シンボル "gzrewind" は未解決です。
+opencv_core249.lib(persistence.obj) : error LNK2001: 外部シンボル "gzeof" は未解決です。
+opencv_core249.lib(persistence.obj) : error LNK2001: 外部シンボル "gzclose" は未解決です。
+opencv_core249.lib(persistence.obj) : error LNK2001: 外部シンボル "gzopen" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "ICOpen" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "ICClose" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "ICSendMessage" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "ICDecompress" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIFileInit" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIFileRelease" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIFileOpenA" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIFileGetStream" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIFileCreateStreamA" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIStreamRelease" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIStreamInfoA" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIStreamSetFormat" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIStreamWrite" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIStreamGetFrameOpen" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIStreamGetFrame" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIStreamGetFrameClose" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVIMakeCompressedStream" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "AVISaveOptions" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "capCreateCaptureWindowA" は未解決です。
+opencv_highgui249.lib(cap_vfw.obj) : error LNK2001: 外部シンボル "capGetDriverDescriptionA" は未解決です。
+opencv_highgui249.lib(cap_images.obj) : error LNK2001: 外部シンボル "sscanf" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_std_error" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_CreateCompress" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_CreateDecompress" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_destroy_compress" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_destroy_decompress" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_stdio_dest" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_stdio_src" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_set_defaults" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_set_quality" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_alloc_huff_table" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_start_compress" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_write_scanlines" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_finish_compress" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_read_header" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_start_decompress" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_read_scanlines" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_finish_decompress" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg.obj) : error LNK2001: 外部シンボル "jpeg_resync_to_restart" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFClose" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFGetField" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFScanlineSize" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFIsTiled" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFSetField" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFWriteScanline" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFReadRGBAStrip" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFReadRGBATile" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFRGBAImageOK" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFOpen" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFSetErrorHandler" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFSetWarningHandler" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFReadEncodedStrip" は未解決です。
+opencv_highgui249.lib(grfmt_tiff.obj) : error LNK2001: 外部シンボル "TIFFReadEncodedTile" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_create_read_struct" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_create_write_struct" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_longjmp_fn" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_create_info_struct" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_write_info" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_read_info" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_expand_gray_1_2_4_to_8" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_palette_to_rgb" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_bgr" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_gray_to_rgb" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_rgb_to_gray" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_strip_alpha" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_swap" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_packing" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_interlace_handling" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_strip_16" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_read_update_info" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_read_image" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_write_image" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_write_end" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_read_end" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_destroy_read_struct" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_destroy_write_struct" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_filter" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_compression_level" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_compression_strategy" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_init_io" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_write_fn" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_read_fn" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_get_io_ptr" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_error" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_get_IHDR" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_set_IHDR" は未解決です。
+opencv_highgui249.lib(grfmt_png.obj) : error LNK2001: 外部シンボル "png_get_tRNS" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_init" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_cleanup" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_stream_fopen" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_stream_close" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_cmprof_destroy" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_cmprof_createfromclrspc" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_matrix_create" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_matrix_destroy" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_image_create" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_image_destroy" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_image_decode" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_image_encode" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_image_readcmpt" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_image_writecmpt" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_image_getcmptbytype" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_image_strtofmt" は未解決です。
+opencv_highgui249.lib(grfmt_jpeg2000.obj) : error LNK2001: 外部シンボル "jas_image_chclrspc" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: __cdecl Imf::Header::Header(int,int,float,class Imath::Vec2<float> const &,float,enum Imf::LineOrder,enum Imf::Compression)" (??0Header@Imf@@QEAA@HHMAEBV?$Vec2@M@Imath@@MW4LineOrder@1@W4Compression@1@@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: __cdecl Imf::Header::~Header(void)" (??1Header@Imf@@QEAA@XZ)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: class Imath::Box<class Imath::Vec2<int> > const & __cdecl Imf::Header::dataWindow(void)const " (?dataWindow@Header@Imf@@QEBAAEBV?$Box@V?$Vec2@H@Imath@@@Imath@@XZ)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: class Imf::ChannelList & __cdecl Imf::Header::channels(void)" (?channels@Header@Imf@@QEAAAEAVChannelList@2@XZ)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: class Imf::ChannelList const & __cdecl Imf::Header::channels(void)const " (?channels@Header@Imf@@QEBAAEBVChannelList@2@XZ)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: __cdecl Imf::Slice::Slice(enum Imf::PixelType,char *,unsigned __int64,unsigned __int64,int,int,double,bool,bool)" (??0Slice@Imf@@QEAA@W4PixelType@1@PEAD_K2HHN_N3@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: void __cdecl Imf::FrameBuffer::insert(char const * const,struct Imf::Slice const &)" (?insert@FrameBuffer@Imf@@QEAAXQEBDAEBUSlice@2@@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""int __cdecl Imf::globalThreadCount(void)" (?globalThreadCount@Imf@@YAHXZ)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: __cdecl Imf::InputFile::InputFile(char const * const,int)" (??0InputFile@Imf@@QEAA@QEBDH@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: class Imf::Header const & __cdecl Imf::InputFile::header(void)const " (?header@InputFile@Imf@@QEBAAEBVHeader@2@XZ)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: void __cdecl Imf::InputFile::setFrameBuffer(class Imf::FrameBuffer const &)" (?setFrameBuffer@InputFile@Imf@@QEAAXAEBVFrameBuffer@2@@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: void __cdecl Imf::InputFile::readPixels(int,int)" (?readPixels@InputFile@Imf@@QEAAXHH@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: __cdecl Imf::OutputFile::OutputFile(char const * const,class Imf::Header const &,int)" (??0OutputFile@Imf@@QEAA@QEBDAEBVHeader@1@H@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: virtual __cdecl Imf::OutputFile::~OutputFile(void)" (??1OutputFile@Imf@@UEAA@XZ)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: void __cdecl Imf::OutputFile::setFrameBuffer(class Imf::FrameBuffer const &)" (?setFrameBuffer@OutputFile@Imf@@QEAAXAEBVFrameBuffer@2@@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: void __cdecl Imf::OutputFile::writePixels(int)" (?writePixels@OutputFile@Imf@@QEAAXH@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: __cdecl Imf::Channel::Channel(enum Imf::PixelType,int,int,bool)" (??0Channel@Imf@@QEAA@W4PixelType@1@HH_N@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: void __cdecl Imf::ChannelList::insert(char const * const,struct Imf::Channel const &)" (?insert@ChannelList@Imf@@QEAAXQEBDAEBUChannel@2@@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: struct Imf::Channel const * __cdecl Imf::ChannelList::findChannel(char const * const)const " (?findChannel@ChannelList@Imf@@QEBAPEBUChannel@2@QEBD@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""private: static short __cdecl half::convert(int)" (?convert@half@@CAFH@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""public: __cdecl Imf::Chromaticities::Chromaticities(class Imath::Vec2<float> const &,class Imath::Vec2<float> const &,class Imath::Vec2<float> const &,class Imath::Vec2<float> const &)" (??0Chromaticities@Imf@@QEAA@AEBV?$Vec2@M@Imath@@000@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""bool __cdecl Imf::hasChromaticities(class Imf::Header const &)" (?hasChromaticities@Imf@@YA_NAEBVHeader@1@@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""struct Imf::Chromaticities const & __cdecl Imf::chromaticities(class Imf::Header const &)" (?chromaticities@Imf@@YAAEBUChromaticities@1@AEBVHeader@1@@Z)" は未解決です。
+opencv_highgui249.lib(grfmt_exr.obj) : error LNK2001: 外部シンボル ""private: static unsigned short const * const half::_eLut" (?_eLut@half@@0QBGB)" は未解決です。
+C:\Users\admin2\Desktop\iiis_DAQsoftware\x64\Release_static\MiniScopeControl.exe : fatal error LNK1120: 166 件の未解決の外部参照
