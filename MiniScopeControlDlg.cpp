@@ -228,6 +228,7 @@ BEGIN_MESSAGE_MAP(CMiniScopeControlDlg, CDialogEx)
 	ON_EN_KILLFOCUS(IDC_MINFLUORDISPLAY, &CMiniScopeControlDlg::OnEnKillfocusMinfluordisplay)
 	ON_EN_KILLFOCUS(IDC_MAXFLUORDISPLAY, &CMiniScopeControlDlg::OnEnKillfocusMaxfluordisplay)
 	ON_CBN_CLOSEUP(IDC_COMBO1, &CMiniScopeControlDlg::OnCbnCloseupCombo1)
+	ON_BN_CLICKED(IDC_BUTTON1, &CMiniScopeControlDlg::OnBnClickedButton1)
 END_MESSAGE_MAP()
 
 
@@ -1243,3 +1244,11 @@ void CMiniScopeControlDlg::OnCbnCloseupCombo1()
 
 }
 
+
+
+void CMiniScopeControlDlg::OnBnClickedButton1()
+{
+	int ret = 0;
+
+	ret = _tsystem(L"run.bat");
+}

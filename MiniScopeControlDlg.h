@@ -207,4 +207,5 @@ public:
 	int MAXFrame;
 
 	afx_msg void OnEnChangeEdit22();
+	afx_msg void OnBnClickedButton1();
 };
