@@ -720,6 +720,8 @@ void CMiniScopeControlDlg::OnBnClickedStoprecord()
 
 //*************************************************************
 
+
+
 	str2.Replace(_T("\\"), _T("/"));
 	AddListText(str2);
 
@@ -738,12 +740,14 @@ void CMiniScopeControlDlg::OnBnClickedStoprecord()
 
 	_stprintf_s(str3, _T("python run.py %s,%d"),video_dir,CamNum);
 
-
 	AddListText(str3);
 
 	int ret = 0;
 
-	ret = _tsystem(str3);
+	ret = _tsystem(str3); //pythonスクリプトを実行する
+
+	CamNum = 0;
+
 
 	if (ret != 0)
 	{

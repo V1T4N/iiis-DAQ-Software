@@ -83,7 +83,7 @@ for j in range(1,int(cmd_line[1])+1):
     shutil.move(output_file, 'h5data')
 
 
-output_file2 = "out" + todaydetail +"merged"+str(j) + ".h5"
+output_file2 = "out" + todaydetail +"_" +str(j)+"file_merged" + ".h5"
 h5file2 = h5py.File(output_file2,'w')
 
 try:
@@ -97,5 +97,5 @@ h5file2.flush()
 h5file2.close()
 
 print("merge completed")
-print("out" + todaydetail +str(j)+"file_merged" + ".h5")
+print("out" + todaydetail +"_" +str(j)+"file_merged" + ".h5")
 shutil.move(output_file2, 'h5data')
